@@ -2,7 +2,7 @@
 
 > You start by having a container and child divs
 >
-```
+```css
 .container {
   display: flex;
   flex-direction: row; // by default, more common /* row-reverse|column|column-reverse */
