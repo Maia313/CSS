@@ -62,4 +62,15 @@ or
         "m c c c c c c c c c c c"
         ". f f f f f f f f f f .";
 }
+```
+
+### Using minmax
+
+```css
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: 100px 100px;
+}
 
