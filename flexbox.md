@@ -5,7 +5,7 @@
 ```
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; // by default, more common
 }
 ```
 
