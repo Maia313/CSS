@@ -98,7 +98,7 @@ or
 }
 ```
 
-#### Justify-content & align-content
-#### Justify-items & align-items
-#### Auto-fit & auto-fill
-#### Grid & flexbox can be used together
+### Justify-content & align-content
+### Justify-items & align-items
+### Auto-fit & auto-fill
+### Grid & flexbox can be used together
