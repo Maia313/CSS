@@ -7,14 +7,14 @@
   display: flex;
   flex-direction: row; // by default, more common /* row-reverse|column|column-reverse */
   justify-content: flex-start;// by default /* flex-start|flex-end center|space-around|space-between|space-evenly */
-  align-items: stretch; //by default /* center|flex-start|flex-end|baseline|initial|inherit */
-  flex-wrap: nowrap; //by default /* wrap */
+  align-items: stretch; // by default /* center|flex-start|flex-end|baseline|initial|inherit */
+  flex-wrap: nowrap; // by default /* wrap */
 }
 ```
 
 ```
 .child-div {
-  margin-left:auto; //will add margin on the left side of the div
+  margin-left:auto; // will add margin on the left side of the div
   align-self:auto; // by default /* stretch|center|flex-start|flex-end|baseline|initial|inherit */
 }
 ```
@@ -48,4 +48,9 @@
 
 > nowrap means that the containers child divs will be placed on one row or column, 
 > they will not extend the nr of rows/columns.
+
+### Order
+
+> Set on child divs to change the order in which they appear in the layout
+>
 
