@@ -86,4 +86,4 @@ or
 }
 ```
 
-> grid-auto-flow:row column dense;
+> grid-auto-flow:row|column|dense;
