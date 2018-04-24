@@ -5,7 +5,7 @@
 ```
 .container {
   display: flex;
-  flex-direction: row; // by default, more common /* row-reverse|column|column-reverse */
+  flex-direction: row; _// by default, more common /* row-reverse|column|column-reverse */_
   justify-content: flex-start;// by default /* flex-start|flex-end center|space-around|space-between|space-evenly */
   align-items: stretch; // by default /* center|flex-start|flex-end|baseline|initial|inherit */
   flex-wrap: nowrap; // by default /* wrap */
