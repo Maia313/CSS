@@ -48,6 +48,8 @@ or
 
 ### Template areas
 
+> The areas have to be rectangles otherwise they brake the entire layout
+
 ```css
 .container {
     height: 100%;
