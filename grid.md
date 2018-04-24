@@ -3,7 +3,7 @@
 > Container and child divs
 >
 
-```
+```css
 .container {
     display: grid;
     grid-template-columns: 100px auto 100px;
@@ -12,7 +12,7 @@
 }
 ```
 or
-```
+```css
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -21,7 +21,7 @@ or
 }
 ```
 or
-```
+```css
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -30,7 +30,7 @@ or
 }
 ```
 or
-```
+```css
 .container {
     display: grid;
     grid-template: repeat(2, 50px) / repeat(3, 1fr);
@@ -39,7 +39,7 @@ or
 ```
 #### For the child div we can specify where it should start and where it should end
 ------
-```
+```css
 .header {
     grid-column-start: 1;
     grid-column-end: 3;
