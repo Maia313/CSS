@@ -31,7 +31,7 @@
 ------
 
 ### Axis
-> A flexbox container always has direction
+> A flexbox container always has **direction**
 > 
 
 #### Main axis
@@ -47,7 +47,7 @@
 
 ### Wrapping
 
-> nowrap means that the containers child divs will be placed on one row or column, 
+> **nowrap** means that the containers child divs will be placed on one row or column, 
 > they will not extend the nr of rows/columns.
 
 ### Order
