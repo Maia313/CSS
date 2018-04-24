@@ -21,7 +21,10 @@
 
 ```
 .container > div {
-  flex: 1;
+  flex: 1; // shorthand, same as flex: 1 1 0; or
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
   /*flex is a shortcut for flex-grow, flex-shrink, flex-basis */
 }
 ```
