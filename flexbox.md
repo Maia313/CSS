@@ -6,6 +6,7 @@
 .container {
   display: flex;
   flex-direction: row; // by default, more common
+  justify-content: flex-start; // by default
 }
 ```
 
