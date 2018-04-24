@@ -9,8 +9,10 @@
 
 #### Main axis
 > By default it is horizontal
+>
 > It goes from left to right along the row
 
 #### Cross axis
 > Is vertical
+>
 > It goes from top to bottom
