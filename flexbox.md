@@ -14,6 +14,7 @@
 ```
 .child-div {
   margin-left:auto; //will add margin on the left side of the div
+  align-self:auto; // by default /* stretch|center|flex-start|flex-end|baseline|initial|inherit */
 }
 ```
 
