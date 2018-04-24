@@ -12,14 +12,14 @@
 }
 ```
 
-```
+```css
 .child-div {
   margin-left:auto; // will add margin on the left side of the div
   align-self:auto; // by default /* stretch|center|flex-start|flex-end|baseline|initial|inherit */
 }
 ```
 
-```
+```css
 .container > div {
   flex: 1; // shorthand, same as flex: 1 1 0; or
   flex-grow: 1;
