@@ -73,4 +73,16 @@ or
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-template-rows: 100px 100px;
 }
+```
+
+### Implicit rows
+
+```css
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+}
+```
 
