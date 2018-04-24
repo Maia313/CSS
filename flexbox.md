@@ -5,8 +5,8 @@
 ```
 .container {
   display: flex;
-  flex-direction: row; /* by default, more common row-reverse column column-reverse */
-  justify-content: flex-start;/* by default  flex-start flex-end center space-around space-between space-evenly */
+  flex-direction: row; // by default, more common /* row-reverse column column-reverse */
+  justify-content: flex-start;// by default /* flex-start flex-end center space-around space-between space-evenly */
 }
 ```
 
