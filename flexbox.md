@@ -21,4 +21,4 @@
 #### Cross axis
 > Is vertical
 >
-> It goes from top to bottom
+> It goes from top to bottom along the column
