@@ -1,5 +1,4 @@
 ## Flexbox
-------
 
 > You start by having a container and child divs
 >
@@ -29,6 +28,7 @@
   /*flex is a shortcut for flex-grow, flex-shrink, flex-basis */
 }
 ```
+------
 
 ### Axis
 > A flexbox container always has direction
