@@ -2,9 +2,9 @@
 
 ## Box positioning in CSS
    > the three main positioning schemes in CSS: **normal flow**, **floats** and **absolute positioning**
-   
+   >
    > normal flow concepts, anonymous box generation, formatting context, line boxes and alignment within line boxes
-   
+   >
    > float concepts, such as float order, clearfix and float interactions with parent height
    
  #### Normal flow
