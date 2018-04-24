@@ -45,3 +45,19 @@ or
     grid-column-end: 3;
 }
 ```
+
+### Template areas
+
+```css
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: 
+        "m h h h h h h h h h h h"
+        "m c c c c c c c c c c c"
+        "m f f f f f f f f f f f";
+}
+
