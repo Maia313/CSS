@@ -87,3 +87,16 @@ or
 ```
 
 > grid-auto-flow: row|column|dense;
+> grid-column: auto| <custom-ident> | <integer> && <custom-ident>? | span && [ <integer> || <custom-ident> ];
+
+### Named lines
+
+```css
+.container {
+    height: 100%; 
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
+    grid-template-rows: [main-start] 40px [content-start] auto [content-end] 40px [main-end]; 
+}
+```
