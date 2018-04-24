@@ -10,6 +10,12 @@
 }
 ```
 
+```
+.child-div {
+  margin-left:auto; //will add margin on the left side of the div
+}
+```
+
 ### Axis
 > A flexbox container always has direction
 > 
