@@ -86,9 +86,6 @@ or
 }
 ```
 
-grid-auto-flow: row|column|dense;
-grid-column: auto| <custom-ident> | <integer> && <custom-ident>? | span && [ <integer> || <custom-ident> ];
-
 ### Named lines
 
 ```css
@@ -100,3 +97,8 @@ grid-column: auto| <custom-ident> | <integer> && <custom-ident>? | span && [ <in
     grid-template-rows: [main-start] 40px [content-start] auto [content-end] 40px [main-end]; 
 }
 ```
+
+#### Justify-content & align-content
+#### Justify-items & align-items
+#### Auto-fit & auto-fill
+#### Grid & flexbox can be used together
