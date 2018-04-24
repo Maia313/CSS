@@ -8,6 +8,7 @@
   flex-direction: row; // by default, more common /* row-reverse|column|column-reverse */
   justify-content: flex-start;// by default /* flex-start|flex-end center|space-around|space-between|space-evenly */
   align-items: stretch; //by default /* center|flex-start|flex-end|baseline|initial|inherit */
+  flex-wrap: nowrap; //by default /* wrap */
 }
 ```
 
@@ -38,3 +39,10 @@
 > Is vertical 
 >
 > It goes from top to bottom along the column
+
+
+### Wrapping
+
+> nowrap means that the containers child divs will be placed on one row or column, 
+> they will not extend the nr of rows/columns.
+
