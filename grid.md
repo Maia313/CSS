@@ -38,6 +38,7 @@ or
 }
 ```
 #### For the child div we can specify where it should start and where it should end
+------
 ```
 .header {
     grid-column-start: 1;
