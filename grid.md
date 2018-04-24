@@ -87,6 +87,7 @@ or
 ```
 
 > grid-auto-flow: row|column|dense;
+>
 > grid-column: auto| <custom-ident> | <integer> && <custom-ident>? | span && [ <integer> || <custom-ident> ];
 
 ### Named lines
