@@ -37,7 +37,7 @@ or
     grid-gap: 3px;
 }
 ```
-##### For the child div we can specify where it should start and where it should end
+#### For the child div we can specify where it should start and where it should end
 ```
 .header {
     grid-column-start: 1;
