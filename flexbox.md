@@ -5,8 +5,8 @@
 ```
 .container {
   display: flex;
-  flex-direction: row; // by default, more common
-  justify-content: flex-start; // by default
+  flex-direction: row; // by default, more common /* row-reverse column column-reverse */
+  justify-content: flex-start; // by default /* flex-start flex-end center space-around space-between space-evenly */
 }
 ```
 
@@ -15,11 +15,9 @@
 > 
 
 #### Main axis
-> By default it is horizontal
->
+> By default it is horizontal 
 > It goes from left to right along the row
 
 #### Cross axis
-> Is vertical
->
+> Is vertical 
 > It goes from top to bottom along the column
