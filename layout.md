@@ -17,7 +17,7 @@ Chapter 2: Box sizing in CSS discusses the box model, but more importantly how t
 
 >Chapter 3: Additional properties that influence positioning covers additional mechanisms that influence box positioning, such as:
 
-* + margin collapsing
++ margin collapsing
 + negative margins
 + overflow
 + max-width, max-height, min-width, min-height
