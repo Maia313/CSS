@@ -58,5 +58,8 @@ float concepts, such as float order, clearfix and float interactions with parent
 
  * how the box of an element is sized and aligned, which is primarily controlled by the display property (and width, height and margin).
  * how elements within a particular parent element are positioned relative to each other
+ 
+ > Boxes in the normal flow belong to a formatting context, which may be block or inline, but not both simultaneously. 
+ > Block-level boxes participate in a block formatting context. Inline-level boxes participate in an inline formatting context. 
 
 
