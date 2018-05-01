@@ -28,9 +28,16 @@ float concepts, such as float order, clearfix and float interactions with parent
 
 >**Flexbox** discusses the CSS 3 flexbox layout mode.
 
->**CSS layout** - tricks and layout techniques takes what we have learned and applies it to several practical problems. >It also contains small quiz-like questions to test you understanding of layout in contexts such as:
+>**CSS layout** - tricks and layout techniques takes what we have learned and applies it to several practical problems. 
+>It also contains small quiz-like questions to test you understanding of layout in contexts such as:
 
  + horizontal and vertical centering
  + how CSS grid frameworks work
  + multicolumn layout
  + common gotchas and layout tricks.
+ 
+ 
+ ----
+ 
+ >the highest level abstraction for CSS layout is the positioning scheme. Once a positioning scheme has been determined, 
+ >it can be further modified by specific layout modes, such as display: table or display: inline-table.
