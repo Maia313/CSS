@@ -51,3 +51,9 @@ float concepts, such as float order, clearfix and float interactions with parent
 * **absolute positioning**, which deals with absolute and fixed elements relative to the normal flow
 
 **All elements belong to the normal flow by default unless they are specifically removed from normal flow - typically by setting the float property or the position property.**
+
+#### There are actually two aspects of layout that are at play:
+
+ * how the box of an element is sized and aligned, which is primarily controlled by the display property (and width, height and margin).
+ * how elements within a particular parent element are positioned relative to each other
+
