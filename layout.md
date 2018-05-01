@@ -62,4 +62,7 @@ float concepts, such as float order, clearfix and float interactions with parent
  > Boxes in the normal flow belong to a formatting context, which may be block or inline, but not both simultaneously. 
  > Block-level boxes participate in a block formatting context. Inline-level boxes participate in an inline formatting context. 
 
-
+> Block-level elements are those elements of the source document that are formatted visually as blocks (e.g., paragraphs). 
+> The following values of the 'display' property make an element block-level: 'block', 'list-item', and 'table'.
+> Block-level boxes are boxes that participate in a block formatting context. Each block-level element generates a principal >block-level box that contains descendant boxes and generated content and is also the box involved in any positioning scheme. 
+> Some block-level elements may generate additional boxes in addition to the principal box [for example,]: 'list-item' elements. These additional boxes are placed with respect to the principal box.
