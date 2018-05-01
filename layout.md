@@ -1,7 +1,6 @@
-<div class="panel panel-gitlab-orange">
+
 ### Layout rules
-{: .panel-heading}
-<div class="panel-body">
+
 -----
 
 >There are *inline* and *block* elements in CSS normal flow.
