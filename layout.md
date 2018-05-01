@@ -1,5 +1,7 @@
+<div class="panel panel-gitlab-orange">
 ### Layout rules
-{: .alert .alert-info}
+{: .panel-heading}
+<div class="panel-body">
 -----
 
 >There are *inline* and *block* elements in CSS normal flow.
@@ -58,8 +60,4 @@ float concepts, such as float order, clearfix and float interactions with parent
  * how the box of an element is sized and aligned, which is primarily controlled by the display property (and width, height and margin).
  * how elements within a particular parent element are positioned relative to each other
 
-<style>
-.alert-info {
-  color: rgb(49,112,143) !important;
-}
-</style>
+
