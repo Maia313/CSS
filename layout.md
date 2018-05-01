@@ -50,6 +50,6 @@ float concepts, such as float order, clearfix and float interactions with parent
 * **floats**, which interact with normal flow in their own way and form the basis of most modern CSS grid frameworks
 * **absolute positioning**, which deals with absolute and fixed elements relative to the normal flow
 
-```css
-All elements belong to the normal flow by default unless they are specifically removed from normal flow - typically by setting the float property or the position property.
+```js
+//All elements belong to the normal flow by default unless they are specifically removed from normal flow - typically by setting the float property or the position property.
 ```
