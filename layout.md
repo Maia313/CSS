@@ -1,5 +1,5 @@
 ### Layout rules
-{: .gitlab-orange}
+{: .alert .alert-info}
 -----
 
 >There are *inline* and *block* elements in CSS normal flow.
