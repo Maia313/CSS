@@ -58,3 +58,8 @@ float concepts, such as float order, clearfix and float interactions with parent
  * how the box of an element is sized and aligned, which is primarily controlled by the display property (and width, height and margin).
  * how elements within a particular parent element are positioned relative to each other
 
+<style>
+.alert-info {
+  color: rgb(49,112,143) !important;
+}
+</style>
