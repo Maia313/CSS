@@ -46,6 +46,6 @@ float concepts, such as float order, clearfix and float interactions with parent
  
  CSS 2.1 defines three positioning schemes, which are:
 
-* *normal* flow, which consists of three formatting contexts: the block, inline and relative formatting contexts
-* *floats*, which interact with normal flow in their own way and form the basis of most modern CSS grid frameworks
-* *absolute positioning*, which deals with absolute and fixed elements relative to the normal flow
+* **normal** flow, which consists of three formatting contexts: the block, inline and relative formatting contexts
+* **floats**, which interact with normal flow in their own way and form the basis of most modern CSS grid frameworks
+* **absolute positioning**, which deals with absolute and fixed elements relative to the normal flow
