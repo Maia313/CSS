@@ -98,3 +98,5 @@ The boxes may be aligned vertically in different ways: their bottoms or tops may
 + a font size, which is inherited from the parent
 + a height defined by the heights and alignments of inline boxes in the line box
 + a baseline, which is defined by a "strut" (except in rare cases involving vertical-align: top / bottom): an invisible, zero-width inline box with the element's font and line height properties
+
+## Normal flow: relative positioning
