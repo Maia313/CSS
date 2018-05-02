@@ -111,3 +111,12 @@ The boxes may be aligned vertically in different ways: their bottoms or tops may
 * Floats can, however, affect the current and subsequent elements' inline-level content's line boxes. Specifically, any current and subsequent line boxes are shortened to make space for the float.
 * Because floats are not in the normal flow, they do not normally affect parent height. This is one reason why the "clearfix" technique was developed.
 * Floats can be cleared using the clear property.
+
+## Float clearing
+
+### The clear property can take one of the following values:
+
+* left: Requires that the top border edge of the box be below the bottom outer edge of any left-floating boxes that resulted from elements earlier in the source document.
+* right: Requires that the top border edge of the box be below the bottom outer edge of any right-floating boxes that resulted from elements earlier in the source document.
+* both: Both float: left and float: right must be cleared as above
+* none: No constraint on the box's position with respect to floats.
