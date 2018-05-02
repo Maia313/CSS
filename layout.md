@@ -86,3 +86,10 @@ The boxes may be aligned vertically in different ways: their bottoms or tops may
 **Horizontal alignment within line boxes: text-align**
 
 **Vertical alignment within line boxes: vertical-align**
+
+### Inline boxes have:
+
+>a font size, which determines the size of the text glyphs
+>a line height, which determines the height of the inline box (in absolute terms or relative to the font size)
+>a baseline, which is a position defined by the font, and on which the bottom edges of most glyphs / characters are aligned >(excluding characters such as q and g, which have descenders/ascenders - parts that extend below/above the baseline alignment)
+
