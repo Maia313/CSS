@@ -75,4 +75,4 @@ float concepts, such as float order, clearfix and float interactions with parent
 
 ## Normal flow
 
-In a box formatting context, boxes are laid out vertically, and that every box's left outer edge will touch the left outer edge of the containing block (even in the presence of floats).
+**In a box formatting context, boxes are laid out vertically, and that every box's left outer edge will touch the left outer edge of the containing block (even in the presence of floats).**
