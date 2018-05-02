@@ -120,3 +120,16 @@ The boxes may be aligned vertically in different ways: their bottoms or tops may
 * right: Requires that the top border edge of the box be below the bottom outer edge of any right-floating boxes that resulted from elements earlier in the source document.
 * both: Both float: left and float: right must be cleared as above
 * none: No constraint on the box's position with respect to floats.
+
+## The clearfix
+
+### A clearfix combines several desirable properties into one class:
+
+* it prevents the floats within the clearfixed parent element from affecting line boxes in other elements that follow the clearfixed element
+* it causes the floats within the clearfixed parent element to be taken into account when calculating that element's height
+
+### There are three ways to accomplish this:
+
+* explicitly adding an element with clear: both at the end of the parent
+* adding an element with clear: both using pseudo-elements at the end of the parent
+* making the parent element establish a new formatting context using a property such as overflow: hidden or overflow: auto
