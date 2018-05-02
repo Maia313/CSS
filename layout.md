@@ -93,3 +93,8 @@ The boxes may be aligned vertically in different ways: their bottoms or tops may
 + a line height, which determines the height of the inline box (in absolute terms or relative to the font size)
 + a baseline, which is a position defined by the font, and on which the bottom edges of most glyphs / characters are aligned (excluding characters such as q and g, which have descenders/ascenders - parts that extend below/above the baseline alignment)
 
+### Each line box has:
+
++ a font size, which is inherited from the parent
++ a height defined by the heights and alignments of inline boxes in the line box
++ a baseline, which is defined by a "strut" (except in rare cases involving vertical-align: top / bottom): an invisible, zero-width inline box with the element's font and line height properties
