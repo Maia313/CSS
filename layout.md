@@ -3,27 +3,27 @@
 
 -----
 
->There are *inline* and *block* elements in CSS normal flow.
->The relative positioning of *block* and *inline* elements is not actually determined by the element's display property! It's actually determined by the formatting context, which is influenced by the siblings of the element.
+>There are *`inline`* and *`block`* elements in CSS normal flow.
+>The relative positioning of *`block`* and *`inline`* elements is not actually determined by the element's display property! It's actually determined by the formatting context, which is influenced by the siblings of the element.
 
->*z-index* is not absolute across the document, but rather relative to a stacking context
+>*`z-index`* is not absolute across the document, but rather relative to a stacking context
 
->There are in fact at least 5 different box models, with subtle differences in how content dimensions and **margin: auto** are treated
+>There are in fact at least 5 different box models, with subtle differences in how content dimensions and **`margin: auto`** are treated
 
->**Box positioning** in CSS covers how the boxes that HTML elements generate are positioned relative to each other:
+>**`Box positioning`** in CSS covers how the boxes that HTML elements generate are positioned relative to each other:
 
-The three main positioning schemes in CSS: **normal flow**, **floats** and **absolute positioning**
+The three main positioning schemes in CSS: **`normal flow`**, **`floats`** and **`absolute positioning`**
 normal flow concepts, such as anonymous box generation, formatting context, line boxes and alignment within line boxes
 float concepts, such as float order, clearfix and float interactions with parent height
 
->**Box sizing** in CSS discusses the box model, but more importantly how the box model varies across the different >positioning schemes in CSS. Concretely, height, width and margins are calculated using completely different mechanisms, and >you can only understand these calculations by knowing the positioning scheme and calculation mechanism in use.
+>**`Box sizing`** in CSS discusses the box model, but more importantly how the box model varies across the different >positioning schemes in CSS. Concretely, height, width and margins are calculated using completely different mechanisms, and >you can only understand these calculations by knowing the positioning scheme and calculation mechanism in use.
 
->**Additional properties that influence positioning** covers additional mechanisms that influence box positioning, such >as:
+>**`Additional properties that influence positioning`** covers additional mechanisms that influence box positioning, such >as:
 
- + margin collapsing
- + negative margins
- + overflow
- + max-width, max-height, min-width, min-height
+ + `margin collapsing`
+ + `negative margins`
+ + `overflow`
+ + `max-width`, `max-height`, `min-width`, `min-height`
  + stacking contexts and the z-index property
  + how pseudo elements impact layout
  + the CSS3 box-sizing property
@@ -48,9 +48,9 @@ float concepts, such as float order, clearfix and float interactions with parent
  
  CSS 2.1 defines three positioning schemes, which are:
 
-* **normal** flow, which consists of three formatting contexts: the block, inline and relative formatting contexts
-* **floats**, which interact with normal flow in their own way and form the basis of most modern CSS grid frameworks
-* **absolute positioning**, which deals with absolute and fixed elements relative to the normal flow
+* **`normal`** flow, which consists of three formatting contexts: the block, inline and relative formatting contexts
+* **`floats`**, which interact with normal flow in their own way and form the basis of most modern CSS grid frameworks
+* **`absolute positioning`**, which deals with absolute and fixed elements relative to the normal flow
 
 **All elements belong to the normal flow by default unless they are specifically removed from normal flow - typically by setting the float property or the position property.**
 
