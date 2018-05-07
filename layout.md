@@ -64,14 +64,14 @@ float concepts, such as float order, clearfix and float interactions with parent
 
 ### Block-level
 > Block-level elements are those elements of the source document that are formatted visually as blocks (e.g., paragraphs). 
-> The following values of the 'display' property make an element block-level: 'block', 'list-item', and 'table'.
+> The following values of the `'display'` property make an element block-level: `'block'`, `'list-item'`, and `'table'`.
 > Block-level boxes are boxes that participate in a block formatting context. Each block-level element generates a principal >block-level box that contains descendant boxes and generated content and is also the box involved in any positioning scheme. 
-> Some block-level elements may generate additional boxes in addition to the principal box [for example,]: 'list-item' elements. These additional boxes are placed with respect to the principal box.
+> Some block-level elements may generate additional boxes in addition to the principal box [for example,]: `'list-item'` elements. These additional boxes are placed with respect to the principal box.
 
 ### Inline-level
->Inline-level elements are those elements of the source document that do not form new blocks of content; the content is >distributed in lines (e.g., emphasized pieces of text within a paragraph, inline images, etc.). The following values of the >'display' property make an element inline-level: 'inline', 'inline-table', and 'inline-block'. Inline-level elements generate >inline-level boxes, which are boxes that participate in an inline formatting context.
+>Inline-level elements are those elements of the source document that do not form new blocks of content; the content is >distributed in lines (e.g., emphasized pieces of text within a paragraph, inline images, etc.). The following values of the >`'display'` property make an element inline-level: `'inline'`, `'inline-table'`, and `'inline-block'`. Inline-level elements >generate inline-level boxes, which are boxes that participate in an inline formatting context.
 
->An inline box is one that is both inline-level and whose contents participate in its containing inline formatting context. A >non-replaced element with a 'display' value of 'inline' generates an inline box. Inline-level boxes that are not inline boxes >(such as replaced inline-level elements, inline-block elements, and inline-table elements) are called atomic inline-level >boxes because they participate in their inline formatting context as a single opaque box. Source
+>An inline box is one that is both inline-level and whose contents participate in its containing inline formatting context. A >non-replaced element with a `'display'` value of `'inline'` generates an inline box. Inline-level boxes that are not inline >boxes (such as replaced inline-level elements, inline-block elements, and inline-table elements) are called atomic inline- >level boxes because they participate in their inline formatting context as a single opaque box.
 
 ## Normal flow: block formatting
 
