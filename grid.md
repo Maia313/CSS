@@ -158,6 +158,19 @@ This translates to:
 --**Note**
 1fr 50px is repeated twice followed by 20px.
 
+### Auto-fill
+
+The `repeat function` comes with a option called `auto-fill`. This allows you to automatically insert as many rows or columns of your desired size as possible depending on the size of the container. You can create flexible layouts when combining `auto-fill` with `minmax`.
+
+In the preview, grid-template-columns is set to
+```css
+    repeat(auto-fill, minmax(60px, 1fr));
+```
+When the container changes size, this setup keeps inserting 60px columns and stretching them until it can insert another one.
+
+--**Note**
+If your container can't fit all your items on one row, it will move them down to a new one.
+
 ### Justify-content & align-content
 ### Justify-items & align-items
 
