@@ -120,3 +120,10 @@ The `flex-shrink property takes numbers as values`. `The higher the number, the 
 The opposite of `flex-shrink` is the `flex-grow` property. Recall that `flex-shrink` controls the size of the items when the container shrinks. The `flex-grow` property controls the size of items when the parent container expands.
 
 If one item has a `flex-grow` value of 1 and the other has a `flex-grow` value of 3, the one with the value of 3 will grow three times as much as the other.
+
+----
+### Flex basis
+
+The `flex-basis` property specifies the initial size of the item before CSS makes adjustments with `flex-shrink` or `flex-grow`.
+
+The `units used by the flex-basis property are the same as other size properties (px, em, %, etc.)`. The value auto sizes items based on the content.
