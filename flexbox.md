@@ -136,3 +136,11 @@ The `flex-grow`, `flex-shrink`, and `flex-basis` properties can all be set toget
 For example, `flex: 1 0 10px;` will set the item to `flex-grow: 1;`, `flex-shrink: 0;`, and `flex-basis: 10px;`.
 
 The `default` property settings are `flex: 0 1 auto;`.
+
+----
+
+### Align-self
+
+The final property for flex items is `align-self`. This property allows you to adjust each item's alignment individually, instead of setting them all at once. This is useful since other common adjustment techniques using the CSS properties `float`, `clear`, and `vertical-align` do not work on flex items.
+
+`align-self` accepts the same values as `align-items` and **will override any value set by the align-items property**.
