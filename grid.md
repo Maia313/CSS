@@ -98,6 +98,10 @@ or
 }
 ```
 
+### Grid gap
+
+`grid-gap` is a shorthand property for `grid-row-gap` and `grid-column-gap` from the previous two challenges that's more convenient to use. If `grid-gap` has one value, it will a create a gap between all rows and columns. However, if there are two values, it will use the first one to set the gap between the rows and the second value for the columns.
+
 ### Justify-content & align-content
 ### Justify-items & align-items
 ### Auto-fit & auto-fill
