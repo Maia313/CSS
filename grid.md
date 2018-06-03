@@ -104,6 +104,11 @@ This is using the line numbers you learned about earlier to define where the are
     grid-template-rows: 100px 100px;
 }
 ```
+There's another built-in function to use with `grid-template-columns` and `grid-template-rows` called `minmax`. It's used to limit the size of items when the grid container changes size. To do this you need to specify the acceptable size range for your item. Here is an example:
+```css
+    grid-template-columns: 100px minmax(50px, 200px);
+```
+In the code above, `grid-template-columns` is set to create `two columns; the first is 100px wide, and the second has the minimum width of 50px and the maximum width of 200px`.
 
 ### Implicit rows
 
