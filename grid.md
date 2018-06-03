@@ -77,6 +77,13 @@ Every word in the code represents a cell and every pair of quotation marks repre
 
 In addition to custom labels, you can use a `period (.)` to designate an empty cell in the grid.
 
+### Grid areas
+
+After creating an areas template for your grid container, as shown in the previous challenge, you can place an item in your custom area by referencing the name you gave it. To do this, you use the `grid-area` property on an item like this:
+```css
+    .item1 { grid-area: header; }
+```
+This lets the grid know that you want the item1 class to go in the area named header. In this case, the item will use the entire top row because that whole row is named as the header area.
 
 ### Using minmax
 
