@@ -127,3 +127,12 @@ If one item has a `flex-grow` value of 1 and the other has a `flex-grow` value o
 The `flex-basis` property specifies the initial size of the item before CSS makes adjustments with `flex-shrink` or `flex-grow`.
 
 The `units used by the flex-basis property are the same as other size properties (px, em, %, etc.)`. The value auto sizes items based on the content.
+
+----
+### Shortcut for flex-grow, flex-shrink, and flex-basis properties 
+
+The `flex-grow`, `flex-shrink`, and `flex-basis` properties can all be set together by using the flex property.
+
+For example, `flex: 1 0 10px;` will set the item to `flex-grow: 1;`, `flex-shrink: 0;`, and `flex-basis: 10px;`.
+
+The `default` property settings are `flex: 0 1 auto;`.
