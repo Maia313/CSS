@@ -7,6 +7,8 @@
    * `vmin`: 70vmin would be 70% of the viewport's smaller dimension (height vs. width).
    * `vmax`: 100vmax would be 100% of the viewport's bigger dimension (height vs. width).
 
+----
+
 #### `Grid units`
 
 You can use `absolute` and `relative units` like `px` and `em` in CSS Grid to define the size of rows and columns. You can use these as well:
