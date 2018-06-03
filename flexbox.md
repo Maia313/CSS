@@ -55,7 +55,7 @@
 > Set on child divs to change the order in which they appear in the layout
 >
 
-
+----
 * Adding `display: flex` to an element turns it into a `flex container`. This makes it possible to align any children of that element into rows or columns. You do this by adding the `flex-direction` property to the parent item and setting it to `row` or `column`. Creating a row will align the children horizontally, and creating a column will align the children vertically.
 
 Sometimes the flex items within a flex container do not fill all the space in the container. It is common to want to tell CSS how to align and space out the flex items a certain way. Fortunately, the `justify-content` property has several options to do this. But first, there is some important terminology to understand before reviewing those options.
