@@ -171,6 +171,13 @@ When the container changes size, this setup keeps inserting 60px columns and str
 --**Note**
 If your container can't fit all your items on one row, it will move them down to a new one.
 
+### Auto-fit
+
+`auto-fit` works almost identical to `auto-fill`. The only **difference** is that when the container's size exceeds the size of all the items combined, `auto-fill` keeps inserting empty rows or columns and pushes your items to the side, while `auto-fit` collapses those empty rows or columns and stretches your items to fit the size of the container.
+
+--**Note**
+If your container can't fit all your items on one row, it will move them down to a new one.
+
 ### Justify-content & align-content
 ### Justify-items & align-items
 
