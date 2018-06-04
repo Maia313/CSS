@@ -19,3 +19,16 @@
    | display 	         | block or inline       | Determines the layout algorithm to use                |
    | position 	         | static 	            | Controls the positioning of an element                |
    | float 	            | none 	               | Allows other elements to float around the element     |
+
+
+#### Float properties
+*
+*
+
+#### Flexbox properties
+*
+*
+
+#### Grid properties
+*
+*
