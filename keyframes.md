@@ -28,27 +28,27 @@ Each animation needs to be defined with the `@keyframes` at-rule which is then c
   + `animation-play-state`: pause/play the animation.
   
   
-  ```css
-  @keyframes stretch {
-  /* declare animation actions here */
-  }
+```css
+@keyframes stretch {
+/* declare animation actions here */
+}
 
-  .element {
-    animation-name: stretch;
-    animation-duration: 1.5s; 
-    animation-timing-function: ease-out; 
-    animation-delay: 0s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-fill-mode: none;
-    animation-play-state: running; 
-  }
+.element {
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running; 
+}
 
-  /*
-    is the same as:
-  */
+/*
+  is the same as:
+*/
 
-  .element {
-    animation:  stretch 1.5s ease-out 0s alternate infinite none running;
-  }
-  ```
+.element {
+   animation:  stretch 1.5s ease-out 0s alternate infinite none running;
+}
+```
