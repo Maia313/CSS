@@ -52,3 +52,12 @@ Each animation needs to be defined with the `@keyframes` at-rule which is then c
    animation:  stretch 1.5s ease-out 0s alternate infinite none running;
 }
 ```
+
+|   animation-timing-function   | ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2)  | 
+|   animation-duration          | Xs or Xms | 
+|   animation-delay             | Xs or Xms |
+|   animation-iteration-count   | X         | 
+|   animation-fill-mode         | forwards, backwards, both, none   |
+|   animation-direction         | normal, alternate     |
+|   animation-play-state        | paused, running, running     |
+    
