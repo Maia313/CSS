@@ -27,6 +27,7 @@ Each animation needs to be defined with the `@keyframes` at-rule which is then c
     For example, you can set the last state of the animation to remain on screen, or you can set it to switch back to before when the animation began.
   + `animation-play-state`: pause/play the animation.
   
+  
   ```css
   @keyframes stretch {
   /* declare animation actions here */
