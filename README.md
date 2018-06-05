@@ -20,7 +20,7 @@
    | position 	         | static 	            | Controls the positioning of an element                |
    | float 	            | none 	               | Allows other elements to float around the element     |
 
-----
+=====
 
 #### Float properties
 *
