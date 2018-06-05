@@ -39,7 +39,7 @@
    `order`
    `flex-grow`
    `flex-shrink`
-   `flex-basis'
+   `flex-basis`
    `flex`
    `align-self`
 
