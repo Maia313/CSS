@@ -74,4 +74,4 @@
    + `justify-self` - Aligns a grid item inside a cell along the `inline (row) axis` (as opposed to `align-self` which aligns along the `block (column) axis`). This value applies to a grid item inside a single cell.
    + `align-self` - Aligns a grid item inside a cell along the `block (column) axis`. This value applies to the content inside a single grid item.
    + `place-self` - sets both the `align-self` and `justify-self` properties in a single declaration. 
-   + 
+ 
