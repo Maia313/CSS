@@ -16,7 +16,7 @@ Each animation needs to be defined with the `@keyframes` at-rule which is then c
   }
 }
 ```
-* Sub-properties
+* **Sub-properties**
   + `animation-name`: declares the name of the @keyframes at-rule to manipulate.
   + `animation-duration`: the length of time it takes for an animation to complete one cycle.
   + `animation-timing-function`: establishes preset acceleration curves such as ease or linear.
