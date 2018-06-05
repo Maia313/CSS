@@ -28,7 +28,7 @@
 
 #### Flexbox properties
 * **For parent**
-   ** `display`
+   + `display`
    `flex-direction`
    `flex-wrap`
    `flex-flow`
