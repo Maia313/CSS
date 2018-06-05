@@ -26,7 +26,7 @@
 *
 
 #### Flexbox properties
-* For parent
+* **For parent**
    `display`
    `flex-direction`
    `flex-wrap`
@@ -35,7 +35,7 @@
    `align-items`
    `align-content`
    
-* For children
+* **For children**
    `order`
    `flex-grow`
    `flex-shrink`
