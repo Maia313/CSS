@@ -26,8 +26,22 @@
 *
 
 #### Flexbox properties
-*
-*
+* For parent
+   `display`
+   `flex-direction`
+   `flex-wrap`
+   `flex-flow`
+   `justify-content`
+   `align-items`
+   `align-content`
+   
+* For children
+   `order`
+   `flex-grow`
+   `flex-shrink`
+   `flex-basis'
+   `flex`
+   `align-self`
 
 #### Grid properties
 *
