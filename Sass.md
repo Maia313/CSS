@@ -130,3 +130,25 @@ it looks like this:
 }
 ```
 This is a powerful way to create a grid layout. Now you have twelve options for column widths available as CSS classes.
+
+### @Each directive
+
+Sass also offers the @each directive which loops over each item in a list or map.
+
+On each iteration, the variable gets assigned to the current value from the list or map.
+
+```css
+@each $color in blue, red, green {
+  .#{$color}-text {color: $color;}
+}
+```
+
+```css
+$colors: (color1: blue, color2: red, color3: green);
+
+@each $key, $color in $colors {
+  .#{$color}-text {color: $color;}
+}
+```
+
+**Note** that the `$key` variable is needed to reference the keys in the map. Otherwise, the compiled CSS would have color1, color2... in it.
