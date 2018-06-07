@@ -1,6 +1,6 @@
 ### Nesting
 
-```css
+```scss
 nav {
   background-color: red;
 }
