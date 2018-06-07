@@ -156,4 +156,4 @@ $colors: (color1: blue, color2: red, color3: green);
 
 ### Partials
 
-*Note* that the underscore is not needed in the import statement - Sass understands it is a partial. Once a partial is imported into a file, all variables, mixins, and other code are available to use.
+**Note** that the underscore is not needed in the import statement - Sass understands it is a partial. Once a partial is imported into a file, all variables, mixins, and other code are available to use.
