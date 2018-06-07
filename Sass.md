@@ -1,6 +1,6 @@
 ### Nesting
 
-```scss
+```css
 nav {
   background-color: red;
 }
@@ -15,7 +15,7 @@ nav ul li {
 ```
 becomes instead
 
-```css
+```scss
 nav {
   background-color: red;
 
@@ -46,7 +46,7 @@ different effects.
 
 Mixins are like functions for CSS. Here is how to write one:
 
-```css
+```scss
 @mixin box-shadow($x, $y, $blur, $c){
   -webkit-box-shadow: $x, $y, $blur, $c;
   -moz-box-shadow: $x, $y, $blur, $c;
@@ -61,7 +61,7 @@ are optional.
 Now any time a box-shadow rule is needed, only a single line calling the mixin replaces having to type all the vendor prefixes. 
 A mixin is called with the @include directive:
 
-```css
+```scss
 div {
   @include box-shadow(0px, 0px, 4px, #fff);
 }
@@ -71,7 +71,7 @@ div {
 
 The @if directive in Sass is useful to test for a specific case - it works just like the if statement in JavaScript.
 
-```css
+```scss
 @mixin make-bold($bool) {
   @if $bool == true {
     font-weight: bold;
@@ -79,7 +79,7 @@ The @if directive in Sass is useful to test for a specific case - it works just 
 }
 ```
 
-```css
+```scss
 @mixin text-effect($val) {
   @if $val == danger {
     color: red;
@@ -105,7 +105,7 @@ end number, and "start through end" includes the end number.
 
 Here's a start through end example:
 
-```css
+```scss
 @for $i from 1 through 12 {
   .col-#{$i} { width: 100%/12 * $i; }
 }
