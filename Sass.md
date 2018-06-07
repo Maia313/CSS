@@ -137,13 +137,13 @@ Sass also offers the @each directive which loops over each item in a list or map
 
 On each iteration, the variable gets assigned to the current value from the list or map.
 
-```css
+```scss
 @each $color in blue, red, green {
   .#{$color}-text {color: $color;}
 }
 ```
 
-```css
+```scss
 $colors: (color1: blue, color2: red, color3: green);
 
 @each $key, $color in $colors {
