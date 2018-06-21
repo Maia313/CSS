@@ -1,5 +1,5 @@
 # CSS
-![Markdown Logo](https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg)
+![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
 
 ## Box positioning in CSS
    > The three main positioning schemes in CSS: **`normal flow`**, **`floats`** and **`absolute positioning`**
