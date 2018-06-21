@@ -1,4 +1,5 @@
 # CSS
+![Markdown logo](https://imgur.com/gallery/2OSAbLa)
 
 ## Box positioning in CSS
    > The three main positioning schemes in CSS: **`normal flow`**, **`floats`** and **`absolute positioning`**
