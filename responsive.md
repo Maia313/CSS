@@ -6,3 +6,14 @@ img {
     height: auto;
 }
 ```
+
+```css
+/* Change all elements to use border-box */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+```
