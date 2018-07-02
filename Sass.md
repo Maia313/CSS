@@ -67,6 +67,25 @@ div {
 }
 ```
 
+```scss
+//Clearfix Mixin
+@mixin clearfix() { 
+   &:before,
+   &:after {
+      content: "";
+      display: table;
+   }
+   &:after {
+      clear: both;
+   }
+}
+
+//Add Clearfix to row
+.row {
+   @include clearfix();
+}
+```
+
 ### @If directive
 
 The @if directive in Sass is useful to test for a specific case - it works just like the if statement in JavaScript.
