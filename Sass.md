@@ -86,6 +86,19 @@ div {
 }
 ```
 
+```scss
+//Font-size Mixin for px to rem conversion
+@mixin font-size($size) {
+  font-size: $size * 1px;
+  font-size: $size * 0.1rem;
+}
+
+//To use the font-size mixin
+.title {
+   @include font-size(24);
+}
+```
+
 ### @If directive
 
 The @if directive in Sass is useful to test for a specific case - it works just like the if statement in JavaScript.
