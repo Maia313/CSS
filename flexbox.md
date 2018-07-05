@@ -35,14 +35,10 @@
 > 
 
 #### Main axis
-> By default it is horizontal 
->
-> It goes from left to right along the row
+> By default it is horizontal - goes from left to right along the row
 
 #### Cross axis
-> Is vertical 
->
-> It goes from top to bottom along the column
+> Is vertical - goes from top to bottom along the column
 
 
 ### Wrapping
