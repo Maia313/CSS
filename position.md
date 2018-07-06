@@ -1,21 +1,19 @@
 ```css
-#element1
-{
-color:white;
-background-color:red; 
-position:absolute; 
-top:30; 
-left:40;
+#element1{
+  color:white;
+  background-color:red; 
+  position:absolute; 
+  top:30; 
+  left:40;
 }
 
-#element2 
-{
-color:white;
-background-color:blue; 
-position:relative; 
-top:20; 
-left:50; 
-z-index:1;
+#element2 {
+  color:white;
+  background-color:blue; 
+  position:relative; 
+  top:20; 
+  left:50; 
+  z-index:1;
 }
 ```
 4 properties will determine placement on the page — `position`, `top`, `left`, and `z-index`. 
