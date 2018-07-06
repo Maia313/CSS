@@ -1,5 +1,5 @@
 
-![Markdown Logo](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)
+![Markdown Logo](https://img.shields.io/badge/css-style-blue.svg)
 
 ## Box positioning in CSS
    > The three main positioning schemes in CSS: **`normal flow`**, **`floats`** and **`absolute positioning`**
