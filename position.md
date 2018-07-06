@@ -18,7 +18,7 @@ left:50;
 z-index:1;
 }
 ```
-Four properties will determine placement on the page—position, top, left, and z-index. 
+4 properties will determine placement on the page — `position`, `top`, `left`, and `z-index`. 
 The **position** property can have one of three values—`static`, `relative`, or `absolute`. The **default position is static**.
 `position:static` means that the blocked-off area will stay inline as normal HTML and **cannot be changed by the top and left properties**. 
 
