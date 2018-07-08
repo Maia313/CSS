@@ -17,3 +17,12 @@ html {
 }
 
 ```
+
+The `max-width` property of 100% scales the image to fit the width of its container, but the image won't stretch wider than its original width. Setting the `display` property to block changes the image from an inline element (its default), to a block element on its own line. The `height` property of auto keeps the original aspect ratio of the image.
+```css
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+```
