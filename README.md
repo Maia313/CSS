@@ -1,5 +1,5 @@
 
-![Css](https://img.shields.io/badge/CSS-style-blue.svg)
+![CSS](https://img.shields.io/badge/CSS-style-blue.svg)
 
 ## Box positioning in CSS
    > The three main positioning schemes in CSS: **`normal flow`**, **`floats`** and **`absolute positioning`**
