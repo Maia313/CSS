@@ -6,7 +6,7 @@
      float concepts, such as float order, clearfix and float interactions with parent height
    
  #### Normal flow
-   > three formatting contexts: **`the block`**, **`inline`** and **`relative`** formatting contexts
+   > 3 formatting contexts: **`the block`**, **`inline`** and **`relative`** formatting contexts
    > **`floats`**, which interact with normal flow in their own way and form the basis of most modern CSS grid frameworks
    > **`absolute positioning`**, which deals with absolute and fixed elements relative to the normal flow
    
