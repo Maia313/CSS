@@ -1,7 +1,5 @@
 ## Flexbox
 
-> You start by having a container and child divs
->
 ```css
 .container {
   display: flex;
