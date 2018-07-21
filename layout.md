@@ -28,8 +28,6 @@ float concepts, such as float order, clearfix and float interactions with parent
  + how pseudo elements impact layout
  + the CSS3 box-sizing property
 
->**Flexbox** discusses the CSS 3 flexbox layout mode.
-
 >**CSS layout** - tricks and layout techniques takes what we have learned and applies it to several practical problems. 
 >It also contains small quiz-like questions to test you understanding of layout in contexts such as:
 
@@ -42,7 +40,7 @@ float concepts, such as float order, clearfix and float interactions with parent
  ----
  
  >the highest level abstraction for CSS layout is the positioning scheme. Once a positioning scheme has been determined, 
- >it can be further modified by specific layout modes, such as display: table or display: inline-table.
+ it can be further modified by specific layout modes, such as display: table or display: inline-table.
  
  ### Positioning schemes
  
@@ -60,7 +58,7 @@ float concepts, such as float order, clearfix and float interactions with parent
  * how elements within a particular parent element are positioned relative to each other
  
  > Boxes in the normal flow belong to a formatting context, which may be block or inline, but not both simultaneously. 
- > Block-level boxes participate in a block formatting context. Inline-level boxes participate in an inline formatting context. 
+ Block-level boxes participate in a block formatting context. Inline-level boxes participate in an inline formatting context. 
 
 ### Block-level
 > Block-level elements are those elements of the source document that are formatted visually as blocks (e.g., paragraphs). 
