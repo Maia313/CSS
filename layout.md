@@ -4,11 +4,11 @@
 -----
 
 >There are *`inline`* and *`block`* elements in CSS normal flow.
->The relative positioning of *`block`* and *`inline`* elements is not actually determined by the element's display property! It's actually determined by the formatting context, which is influenced by the siblings of the element.
+The relative positioning of *`block`* and *`inline`* elements is not actually determined by the element's display property! It's actually determined by the formatting context, which is influenced by the siblings of the element.
 
 >*`z-index`* is not absolute across the document, but rather relative to a stacking context
 
->There are in fact at least 5 different box models, with subtle differences in how content dimensions and **`margin: auto`** are treated
+>There are in fact at least **5** different box models, with subtle differences in how content dimensions and **`margin: auto`** are treated
 
 >**`Box positioning`** in CSS covers how the boxes that HTML elements generate are positioned relative to each other:
 
@@ -16,7 +16,7 @@ The three main positioning schemes in CSS: **`normal flow`**, **`floats`** and *
 normal flow concepts, such as anonymous box generation, formatting context, line boxes and alignment within line boxes
 float concepts, such as float order, clearfix and float interactions with parent height
 
->**`Box sizing`** in CSS discusses the box model, but more importantly how the box model varies across the different >positioning schemes in CSS. Concretely, height, width and margins are calculated using completely different mechanisms, and >you can only understand these calculations by knowing the positioning scheme and calculation mechanism in use.
+>**`Box sizing`** in CSS discusses the box model, but more importantly how the box model varies across the different positioning schemes in CSS. Concretely, height, width and margins are calculated using completely different mechanisms, and you can only understand these calculations by knowing the positioning scheme and calculation mechanism in use.
 
 >**`Additional properties that influence positioning`** covers additional mechanisms that influence box positioning, such >as:
 
