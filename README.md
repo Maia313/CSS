@@ -30,7 +30,7 @@
  
 
 #### Flexbox properties
-* **For parent**
+* **For parent elements**
    + `display`
    + `flex-direction`
    + `flex-wrap`
@@ -39,7 +39,7 @@
    + `align-items` - For `cross axis`
    + `align-content` - This aligns a flex container's lines within when there is extra space in the cross-axis
    
-* **For children**
+* **For child elements**
    + `order`
    + `flex-grow`
    + `flex-shrink`
@@ -48,7 +48,7 @@
    + `align-self` - This allows the default alignment (or the one specified by `align-items`) to be overridden for individual `flex items`.
 
 #### Grid properties
-* **For parent**
+* **For parent elements**
    + `display`
    + `grid-template-columns`, `grid-template-rows`
    + `grid-template-areas`
@@ -65,7 +65,7 @@
    + `grid-auto-flow` - If you have grid items that you don't explicitly place on the grid, the auto-placement algorithm kicks in to automatically place the items. This property controls how the auto-placement algorithm works.
    + `grid` - A shorthand for setting all of the following properties in a single declaration: `grid-template-rows`, `grid-template-columns`, `grid-template-areas`, `grid-auto-rows`, `grid-auto-columns`, and `grid-auto-flow` (Note: You can only specify the `explicit` or the `implicit grid` properties in a single grid declaration).
    
-* **For children**
+* **For child elements**
    + `grid-column-start`, `grid-column-end`, `grid-row-start`, `grid-row-end`
    + `grid-column`, `grid-row` - Shorthand for `grid-column-start + grid-column-end`, and `grid-row-start + grid-row-end`, respectively.
    + `grid-area` - Gives an item a name so that it can be referenced by a template created with the grid-template-areas property. Alternatively, this property can be used as an even shorter shorthand for `grid-row-start + grid-column-start + grid-row-end + grid-column-end`.
