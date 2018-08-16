@@ -17,7 +17,7 @@
 }
 ```
 4 properties will determine placement on the page — `position`, `top`, `left`, and `z-index`. 
-The **position** property can have one of three values—`static`, `relative`, or `absolute`. The **default position is static**.
+The **position** property can have one of 3 values—`static`, `relative`, or `absolute`. The **default position is static**.
 `position:static` means that the blocked-off area will stay inline as normal HTML and **cannot be changed by the top and left properties**. 
 
 ### _In order to change the position, we must declare the position to be either relative or absolute._
