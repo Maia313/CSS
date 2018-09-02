@@ -34,10 +34,10 @@
    + `display`
    + `flex-direction`
    + `flex-wrap`
-   + `flex-flow` - A shorthand for `flex-direction` and `flex-wrap`, which define the flex container's main and cross axes.               Default is row nowrap
+   + `flex-flow` - shorthand for `flex-direction` and `flex-wrap`, which define the flex container's main and cross axes.               Default is row nowrap
    + `justify-content` - For `main axis`, aligns individual items
    + `align-items` - For `cross axis`
-   + `align-content` - This aligns a flex container's lines within when there is extra space in the cross-axis
+   + `align-content` - aligns a flex container's lines within when there is extra space in the cross-axis
    
 * **For child elements**
    + `order`
