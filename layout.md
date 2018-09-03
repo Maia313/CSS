@@ -18,7 +18,7 @@ float concepts, such as float order, clearfix and float interactions with parent
 
 >**`Box sizing`** in CSS discusses the box model, but more importantly how the box model varies across the different positioning schemes in CSS. Concretely, height, width and margins are calculated using completely different mechanisms, and you can only understand these calculations by knowing the positioning scheme and calculation mechanism in use.
 
->**`Additional properties that influence positioning`** covers additional mechanisms that influence box positioning, such >as:
+>**`Additional properties that influence positioning`** covers additional mechanisms that influence box positioning, such as:
 
  + `margin collapsing`
  + `negative margins`
@@ -28,8 +28,8 @@ float concepts, such as float order, clearfix and float interactions with parent
  + how pseudo elements impact layout
  + the CSS3 box-sizing property
 
->**CSS layout** - tricks and layout techniques takes what we have learned and applies it to several practical problems. 
->It also contains small quiz-like questions to test you understanding of layout in contexts such as:
+> **CSS layout** - tricks and layout techniques takes what we have learned and applies it to several practical problems. 
+> It also contains small quiz-like questions to test you understanding of layout in contexts such as:
 
  + horizontal and vertical centering
  + how CSS grid frameworks work
@@ -39,7 +39,7 @@ float concepts, such as float order, clearfix and float interactions with parent
  
  ----
  
- >the highest level abstraction for CSS layout is the positioning scheme. Once a positioning scheme has been determined, 
+ > the highest level abstraction for CSS layout is the positioning scheme. Once a positioning scheme has been determined, 
  it can be further modified by specific layout modes, such as display: table or display: inline-table.
  
  ### Positioning schemes
