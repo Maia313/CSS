@@ -12,7 +12,7 @@ The relative positioning of *`block`* and *`inline`* elements is not actually de
 
 >**`Box positioning`** in CSS covers how the boxes that HTML elements generate are positioned relative to each other:
 
-The three main positioning schemes in CSS: **`normal flow`**, **`floats`** and **`absolute positioning`**
+The 3 main positioning schemes in CSS: **`normal flow`**, **`floats`** and **`absolute positioning`**
 normal flow concepts, such as anonymous box generation, formatting context, line boxes and alignment within line boxes
 float concepts, such as float order, clearfix and float interactions with parent height
 
