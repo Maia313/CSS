@@ -10,7 +10,7 @@
    > **`floats`**, which interact with normal flow in their own way and form the basis of most modern CSS grid frameworks
    > **`absolute positioning`**, which deals with absolute and fixed elements relative to the normal flow
    
-   The positioning scheme has impact on the `x-` and `y-axis` positioning of elements. All elements belong to the normal flow by default unless they are specifically removed from normal flow - typically by setting the float or the position property.
+   The positioning scheme has impact on the `x-` and `y-axis` positioning of elements. All elements belong to the normal flow by default unless they are specifically removed from normal flow - typically by setting the `float` or the `position` property.
    
    | **`Attribute`** 	| **`Default value`** 	| **`Purpose`**                                         |
    |--------------------|:---------------------:|:-----------------------------------------------------:|
