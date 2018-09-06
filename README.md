@@ -63,7 +63,7 @@
    + `place-content` - sets both the `align-content` and `justify-content` properties in a single declaration.
    + `grid-auto-columns`, `grid-auto-rows`-Specifies the size of any `auto-generated grid tracks` (aka `implicit grid tracks`). `Implicit tracks` get created when there are more grid items than cells in the grid or when a grid item is placed outside of the `explicit grid`.
    + `grid-auto-flow` - If you have grid items that you don't explicitly place on the grid, the auto-placement algorithm kicks in to automatically place the items. This property controls how the auto-placement algorithm works.
-   + `grid` - A shorthand for setting all of the following properties in a single declaration: `grid-template-rows`, `grid-template-columns`, `grid-template-areas`, `grid-auto-rows`, `grid-auto-columns`, and `grid-auto-flow` (Note: You can only specify the `explicit` or the `implicit grid` properties in a single grid declaration).
+   + `grid` - A shorthand for setting all of the following properties in a single declaration: `grid-template-rows`, `grid-template-columns`, `grid-template-areas`, `grid-auto-rows`, `grid-auto-columns`, and `grid-auto-flow` (**Note**: You can only specify the `explicit` or the `implicit grid` properties in a single grid declaration).
    
 * **For child elements**
    + `grid-column-start`, `grid-column-end`, `grid-row-start`, `grid-row-end`
