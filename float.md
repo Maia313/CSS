@@ -25,7 +25,7 @@
 * it prevents the floats within the clearfixed parent element from affecting line boxes in other elements that follow the clearfixed element
 * it causes the floats within the clearfixed parent element to be taken into account when calculating that element's height
 
-### There are three ways to accomplish this:
+### There are 3 ways to accomplish this:
 
 * explicitly adding an element with `clear: both` at the end of the parent
 * adding an element with `clear: both` using pseudo-elements at the end of the parent
