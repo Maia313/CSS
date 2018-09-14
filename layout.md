@@ -71,11 +71,11 @@ float concepts, such as float order, clearfix and float interactions with parent
 
 >An inline box is one that is both inline-level and whose contents participate in its containing inline formatting context. A >non-replaced element with a `'display'` value of `'inline'` generates an inline box. Inline-level boxes that are not inline >boxes (such as replaced inline-level elements, inline-block elements, and inline-table elements) are called atomic inline- >level boxes because they participate in their inline formatting context as a single opaque box.
 
-## Normal flow: block formatting
+### Normal flow: block formatting
 
 **In a box formatting context, boxes are laid out vertically, and that every box's left outer edge will touch the left outer edge of the containing block (even in the presence of floats).**
 
-## Normal flow: inline formatting
+### Normal flow: inline formatting
 
 In an inline formatting context, boxes are laid out horizontally, one after the other, beginning at the top of a containing block. Horizontal margins, borders, and padding are respected between these boxes.
 
@@ -97,5 +97,5 @@ The boxes may be aligned vertically in different ways: their bottoms or tops may
 + a height defined by the heights and alignments of inline boxes in the line box
 + a baseline, which is defined by a "strut" (except in rare cases involving vertical-align: top / bottom): an invisible, zero-width inline box with the element's font and line height properties
 
-## Normal flow: relative positioning
+### Normal flow: relative positioning
 
