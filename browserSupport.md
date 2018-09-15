@@ -17,7 +17,7 @@ You can get better browser support for the <picture> tag if you implement Pictur
 
 If js/picturefill.js does not already exist in your folder, download it using the link above and save it as js/picturefill.js.
 
-Open index.html, and add a reference to picturefill.js in the head tags
+Open index.html, and add a reference to picturefill.js inside the head tags
 ```scss
     <script src="picturefill.js" async></script>
 ```
