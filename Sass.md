@@ -13,7 +13,7 @@ nav ul li {
   display: inline-block;
 }
 ```
-becomes instead
+_becomes instead_
 
 ```scss
 nav {
