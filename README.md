@@ -20,7 +20,7 @@
 
 ----
 
-#### Float properties
+### Float properties
 * + `float`
   + `clear`
 * Techniques for Clearing Floats
@@ -29,7 +29,7 @@
   + The `Easy Clearing Method` uses a clever CSS pseudo selector (`:after`) to clear floats. Rather than setting the `overflow` on the parent, you apply an additional class like "`clearfix`" to it.
  
 
-#### Flexbox properties
+### Flexbox properties
 * **For parent elements**
    + `display`
    + `flex-direction`
@@ -47,7 +47,7 @@
    + `flex` - This is the shorthand for `flex-grow`, `flex-shrink` and `flex-basis` combined. The second and third parameters (`flex-shrink` and `flex-basis`) are `optional`. Default is `0 1 auto`.
    + `align-self` - This allows the default alignment (or the one specified by `align-items`) to be overridden for individual `flex items`.
 
-#### Grid properties
+### Grid properties
 * **For parent elements**
    + `display`
    + `grid-template-columns`, `grid-template-rows`
